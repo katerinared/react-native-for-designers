@@ -2,3 +2,14 @@ version: "1.0"
 linter: jetbrains/qodana-js:2023.2-eap
 include:
   - name: CheckDependencyLicenses
+  - name: CssConvertColorToHexInspection
+  - name: CssConvertColorToRgbInspection
+  - name: CssOverwrittenProperties
+  - name: CssReplaceWithShorthandSafely
+  - name: CssReplaceWithShorthandUnsafely
+  - name: CssBrowserCompatibilityForProperties
+  - name: CssUnusedSymbol
+  - name: HtmlDeprecatedTag
+  - name: HtmlPresentationalElement
+  - name: CssMissingSemicolon
+  - name: CssRedundantUnit
