@@ -57,3 +57,5 @@ const Image = styled.Image`
   height: 44px;
   border-radius: 22px;
 `;
+
+
